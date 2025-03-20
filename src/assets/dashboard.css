@@ -1,0 +1,35 @@
+/* Dashboard Title */
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    
+    margin-bottom: 20px;
+}
+
+/* Widget Container */
+.widget-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual Widget */
+.widget {
+   
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+/* Widget Values */
+.value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Widget Colors */
+.blue { color: #3498db; }
+.green { color: #2ecc71; }
+.purple { color: #9b59b6; }
